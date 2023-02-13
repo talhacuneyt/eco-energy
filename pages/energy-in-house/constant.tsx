@@ -4,7 +4,7 @@ export const energyInHouses: Array<
   Omit<FlipCardProps, "href"> & { iframe: string }
 > = [
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "",
     image: "/images/energy-in-house/Icon_dishwater.png",
     text: (
@@ -29,7 +29,7 @@ export const energyInHouses: Array<
     title: "Bulaşık Makinesi",
   },
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "https://www.trthaber.com/etiket/ruzgar-enerjisi/",
     image: "/images/energy-in-house/Icon_electricity.png",
     text: (
@@ -55,7 +55,7 @@ export const energyInHouses: Array<
     title: "Aydınlatma",
   },
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "https://www.trthaber.com/etiket/ruzgar-enerjisi/",
     image: "/images/energy-in-house/Icon_microwave.png",
     text: (
@@ -91,7 +91,7 @@ export const energyInHouses: Array<
     title: "Fırın",
   },
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "https://www.trthaber.com/etiket/ruzgar-enerjisi/",
     image: "/images/energy-in-house/Icon_refrigerator.png",
     text: (
@@ -131,7 +131,7 @@ export const energyInHouses: Array<
     title: "Buzdolabı",
   },
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "https://www.trthaber.com/etiket/ruzgar-enerjisi/",
     image: "/images/energy-in-house/Icon_sockets.png",
     text: (
@@ -159,7 +159,7 @@ export const energyInHouses: Array<
     title: "Süpürge",
   },
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "https://www.trthaber.com/etiket/ruzgar-enerjisi/",
     image: "/images/energy-in-house/Icon_television.png",
     text: (
@@ -178,7 +178,7 @@ export const energyInHouses: Array<
     title: "Televizyon",
   },
   {
-    description: "Haberler",
+    description: "Daha fazlası için...",
     iframe: "https://www.trthaber.com/etiket/ruzgar-enerjisi/",
     image: "/images/energy-in-house/Icon_washing-machine.png",
     text: (

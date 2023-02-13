@@ -12,6 +12,8 @@ export const SustainableSourceCard = styled.div`
 
   & > img {
     object-fit: cover;
+    background-color: #1ccf4a;
+    border-radius: 12px;
   }
 
   & > div:last-child {

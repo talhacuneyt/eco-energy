@@ -4,7 +4,7 @@ export const Header = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 200px;
+  padding: 20px 100px;
   background-color: #1ccf4e;
   position: relative;
   width: 100%;
@@ -17,11 +17,12 @@ export const Header = styled.div`
       display: flex;
       align-items: center;
       padding: 10px 15px;
-      border-bottom: 2px solid transparent;
+      border: 2px solid transparent;
+      border-radius: 12px;
       margin-right: 10px;
 
       :hover {
-        border-bottom: 2px solid;
+        border: 2px solid;
       }
 
       svg {
@@ -61,7 +62,6 @@ export const Header = styled.div`
       }
 
       :last-child {
-        padding-right: 0;
         margin-right: 0;
       }
     }
