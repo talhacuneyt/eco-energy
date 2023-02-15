@@ -1,5 +1,7 @@
 export interface InvoiceCardsProps {
-  title: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onSubmit: () => void;
   text: string;
-  // image: string
+  title: string;
+  value: string | number;
 }

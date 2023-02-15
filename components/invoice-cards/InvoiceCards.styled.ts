@@ -5,8 +5,11 @@ export const InvoiceCards = styled.div`
   border: 2px solid #1ccf4a;
   border-radius: 12px;
   margin-bottom: 30px;
+  margin-left: 20px;
   color: #fff;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
   h1 {
     border-left: 6px solid #1ccf4a;
@@ -14,12 +17,12 @@ export const InvoiceCards = styled.div`
     margin-bottom: 30px;
   }
 
-  div {
+  form {
     display: flex;
     align-items: center;
 
     input,
-    a {
+    button {
       padding: 10px;
       border: 2px solid #1ccf4a;
       border-radius: 12px;
@@ -31,7 +34,8 @@ export const InvoiceCards = styled.div`
       background-color: transparent;
     }
 
-    a {
+    button {
+      cursor: pointer;
       display: flex;
       align-items: center;
       transition: 0.4s all;

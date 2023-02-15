@@ -26,7 +26,8 @@ export const sustainables: Array<
   },
   {
     description: "Haberler",
-    iframe: "https://www.jeotermalhaberler.com/",
+    iframe:
+      "https://www.trthaber.com/haber/bilim-teknoloji/turkiyenin-gucu-jeotermal-enerji-706421.html",
     image: "/images/sustainable/Group-2.png",
     text: "Jeotermal enerji, dünyanın alt yüzeyinde elde edilen ısıdır. Su ve/veya buhar jeotermal enerjiyi dünya yüzeyine taşır. Özelliklerine bağlı olarak, jeotermal enerji ısıtma ve soğutma amacıyla veya temiz elektrik üretmek için kullanılabilir. Bununla birlikte, elektrik için, genellikle tektonik olarak aktif bölgelere yakın konumdaki yüksek veya orta sıcaklık kaynaklarına ihtiyaç duyulur. Farklı olgunluk seviyelerinde farklı jeotermal teknolojiler vardır. Bölgesel ısıtma, jeotermal ısı pompaları, seralar ve diğer uygulamalar gibi doğrudan kullanımlar için teknolojiler yaygın olarak kullanılır. Doğal olarak yüksek geçirgenliğe sahip hidrotermal rezervuarlardan elektrik üretimi teknolojisi olgun ve güvenilirdir. Bununla birlikte, orta sıcaklık alanları gittikçe daha fazla kullanılıyor ve jeotermal akışkanın bir işlem akışkanını kapalı bir döngüde ısıtmak için ısı eşanjörleri yoluyla kullanıldığı ikili çevrim teknolojisinin gelişimi sayesinde elektrik üretimi veya kombine ısı ve güç için kullanılmaktadır.",
     title: "Jeotermal Enerji",

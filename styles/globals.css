@@ -15,9 +15,9 @@ button {
   background-color: transparent;
   border: none;
   color: #000;
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {
-  width: 1px;
-  color: #1ccf4e;
+  width: 0;
 }
