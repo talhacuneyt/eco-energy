@@ -1,6 +1,6 @@
 export interface Percentages {
   kdv: number;
-  unitPrice: number;
+  price: number;
 }
 
 export interface CityProps {

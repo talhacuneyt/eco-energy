@@ -12,6 +12,7 @@ const CityBar: React.FunctionComponent<CityBarProps> = ({ handleClick }) => {
   const onClick = (city: CityProps, index: number) => {
     setActiveCity(city.name);
     handleClick(city, index);
+    setIsActive(false);
   };
 
   return (

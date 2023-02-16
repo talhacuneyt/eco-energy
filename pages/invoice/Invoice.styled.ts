@@ -1,14 +1,20 @@
 import styled from "styled-components";
 
-export const Invoice = styled.div`
-  width: 100%;
+export const Invoice = styled.div``;
+
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   padding: 50px;
 
-  div:nth-child(1) {
-    display: flex;
+  & > div:nth-child(2) {
+    & > div {
+      display: flex;
+      flex-direction: row;
+    }
   }
+`;
+
+export const Table = styled.div`
+  padding: 40px 160px;
 `;

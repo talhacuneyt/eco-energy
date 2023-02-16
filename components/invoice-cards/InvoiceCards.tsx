@@ -5,6 +5,7 @@ import { InvoiceCardsProps } from "./types";
 import * as Styled from "./InvoiceCards.styled";
 
 const InvoiceCards: React.FunctionComponent<InvoiceCardsProps> = ({
+  kdv,
   onChange,
   onSubmit,
   text,
@@ -13,7 +14,6 @@ const InvoiceCards: React.FunctionComponent<InvoiceCardsProps> = ({
 }) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("sa");
     onSubmit?.();
   };
 
@@ -27,10 +27,13 @@ const InvoiceCards: React.FunctionComponent<InvoiceCardsProps> = ({
           type="text"
           value={value}
         />
-        <button type="submit">
-          <p>HESAPLA</p>
-          <FiPlus />
-        </button>
+        {onSubmit && (
+          <button type="submit">
+            <p>HESAPLA</p>
+            <FiPlus />
+          </button>
+        )}
+        {kdv && <p>KDV: {kdv}</p>}
       </form>
     </Styled.InvoiceCards>
   );

@@ -58,9 +58,8 @@ export const FlipCardBack = styled.div`
     text-align: justify;
     display: -webkit-box;
     -webkit-line-clamp: 10;
-    -webkit-box-orient: vertical; 
-    overflow:hidden;
-
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 `;
 
